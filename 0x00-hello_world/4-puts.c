@@ -1,11 +1,15 @@
 #include <stdio.h>
 
+/**
+ * main - the entry point
+ */
+
 int main(void)
 {
   /**
-   * main - prints the sentence below,
-   * return 0 allows the exit status of the program
+   * puts - prints the sentence below
+   * return 0 - allows the exit status of the program
    */
-  puts("\"Programming is like building a multilingual puzzle\n0");
-  return (0);
+puts("\"Programming is like building a multilingual puzzle\n");
+return (0);
 }
