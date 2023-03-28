@@ -1,10 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - prints to stderr
+ * main - C program that prints a new line to the standard error
  *
- *
- *
- *Return - 1 (success)
+ * Return: 1 for success
  */
 int main(void)
 {
