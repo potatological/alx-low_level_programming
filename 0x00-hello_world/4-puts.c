@@ -2,8 +2,8 @@
 
 /**
  * main - the entry point
- * puts - prints the sentence below                                                                                                       
- * return 0 - allows the exit status of the program                                                                                       
+ * puts - prints the sentence below
+ * return 0 - allows the exit status of the program
  */
 
 int main(void)
