@@ -6,7 +6,7 @@
  * main - the entry point
  *        prints and states whether n is negative, positive or zero
  *
- * Return - always success
+ * Return - always 0
  */
 int main(void)
 {
