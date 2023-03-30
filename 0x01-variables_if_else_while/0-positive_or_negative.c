@@ -4,9 +4,9 @@
 
 /**
  * main - the entry point
+ *        prints and states whether n is negative, positive or zero
  *
- *
- * return - always success
+ * Return - always success
  */
 int main(void)
 {
