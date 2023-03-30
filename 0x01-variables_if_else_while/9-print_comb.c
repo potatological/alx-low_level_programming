@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-int n = 0;
-while (n < 10)
+int n;
+for(n = 0; n < 10; n++)
 {
 putchar(48 + n);
 if (n == 9)
@@ -18,7 +18,6 @@ continue;
 }
 putchar(',');
 putchar(' ');
-n++;
 }
 putchar('\n');
 return (0);
