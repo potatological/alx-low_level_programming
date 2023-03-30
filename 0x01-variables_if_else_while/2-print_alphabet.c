@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - the entry point 
+ * main - the entry point
  *        program that prints lowercase alphabets
  *
  * Return: Always 0.
@@ -12,8 +12,8 @@ char c = 'a';
 while (c <= 'z')
 {
 putchar(c);
-putchar('\n');
 c++;
 }
+putchar('\n');
 return (0);
 }
