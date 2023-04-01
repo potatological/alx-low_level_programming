@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -11,18 +10,23 @@ int main(void)
 {
 int i;
 int j;
-for (i=0; i < 9; i++)
+int k;
+for (i = 0; i < 8; i++)
 {
-for (j=i+1; j < 10; j++)
+for (j = i + 1; j < 9; j++)
 {
-if (i == j)
+for (k = j + 1; k < 10; k++)
+{
+if (i == j && j == k)
 continue;
-putchar(i+'0');
-putchar(j+'0');
-if (i == 8 && j == 9)
+putchar(i + '0');
+putchar(j + '0');
+putchar(k + '0');
+if (i == 7 && j == 8 && k == 9)
 continue;
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
