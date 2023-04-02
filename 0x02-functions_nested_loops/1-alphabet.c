@@ -3,14 +3,16 @@
 /**
  * main - the entry point 
  *        prints all the alphabet, lowercase
+ *
+ * @_putchar: function that allow us to print
  */
 
 void print_alphabet(void)
 {
-  char a;
-  for (a = 'a'; a <= 'z'; a++)
-    {
-      _putchar(a);
-    }
-  _putchar('\n');
+char a;
+for (a = 'a'; a <= 'z'; a++)
+{
+_putchar(a);
+}
+_putchar('\n');
 }
