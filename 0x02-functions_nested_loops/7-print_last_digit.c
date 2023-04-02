@@ -10,8 +10,8 @@
 int print_last_digit(int a)
 {
 int b;
-write (b = a % 10);
-if (b < 0)
-write (b = b * -1);
+b = a % 10;
+b = abs (b);
+_putchar (b);
 return (b);
 }
