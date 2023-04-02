@@ -7,13 +7,11 @@
  * Return: returns the last digit b
  */
 
-int print_last_digit(int);
+int print_last_digit(int a)
 {
-int a, b;
+int b;
 b = a % 10;
 if (b < 0)
-{
 b = b * -1;
-}
 return (b);
 }
