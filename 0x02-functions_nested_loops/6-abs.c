@@ -8,15 +8,15 @@
 
 int _abs(int a)
 {
-  int absoluteval;
+int absoluteval;
 if (a >= 0)
 {
-  absoluteval = a * +1;
-  return(absoluteval);
+absoluteval = a * +1;
+return(absoluteval);
 }
 else
 {
-  absoluteval = a * -1;
-  return(absoluteval);
+absoluteval = a * -1;
+return(absoluteval);
 }
 }
