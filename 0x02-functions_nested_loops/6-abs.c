@@ -12,11 +12,11 @@ int absoluteval;
 if (a >= 0)
 {
 absoluteval = a * +1;
-return(absoluteval);
+return (absoluteval);
 }
 else
 {
 absoluteval = a * -1;
-return(absoluteval);
+return (absoluteval);
 }
 }
