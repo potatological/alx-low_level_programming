@@ -4,7 +4,7 @@
  * main - the entry point
  *        prints all the alphabet, lowercase
  *
- * @print_alphabet: function that allow us to print
+ * print_alphabet: function that allow us to print
  */
 
 void print_alphabet(void)
