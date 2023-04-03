@@ -17,6 +17,7 @@ while (n >= 98)
 _putchar(n);
 _putchar(',');
 _putchar(' ');
+n--;
 }
 }
 else
@@ -26,6 +27,7 @@ while (n <= 98)
 _putchar(n);
 _putchar(',');
 _putchar(' ');
+n++;
 }
 }
 }
