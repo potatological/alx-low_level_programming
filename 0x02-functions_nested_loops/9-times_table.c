@@ -16,29 +16,24 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 mult = i * j;
-if ((mult / 10) != 0)
-{
-_putchar(mult / 10 + '0');
-}
-_putchar(mult % 10 + '0');
 if (mult > 9)
 {
-if (j < 9)
-{
+_putchar(mult / 10 + '0');
+_putchar(mult % 10 + '0');
 _putchar(',');
-}
 _putchar(' ');
 }
 else
-{
-if (j < 9)
+{   
+if (j != 0)
 {
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
+_putchar(mult + '0');
 }
 }
-_putchar('\n');
+ _putchar('\n');
 }
 }
