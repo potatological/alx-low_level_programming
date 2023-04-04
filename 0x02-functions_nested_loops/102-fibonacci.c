@@ -13,10 +13,10 @@ unsigned int fib;
 unsigned int a = 1;
 unsigned int b = 2;
 fib = a + b;
-printf("%d, %d, ", a, b);
+printf("%u, %u, ", a, b);
 for (i = 3; i <= 50; i++)
 {
-printf("%d, ", fib);
+printf("%u, ", fib);
 a = b;
 b = fib;
 fib = a + b;
