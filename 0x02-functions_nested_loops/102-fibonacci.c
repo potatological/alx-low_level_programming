@@ -3,20 +3,20 @@
 /**
  * main - prints the first 50 fibonacci numbers starting with 1 & 2
  *
- * return: always 0.
+ * Return: always 0.
  */
 
 int main(void)
 {
 int i;
-unsigned int fib;
-unsigned int a = 1;
-unsigned int b = 2;
+float fib;
+float a = 1;
+float b = 2;
 fib = a + b;
-printf("%u, %u, ", a, b);
+printf("%f, %f, ", a, b);
 for (i = 3; i <= 50; i++)
 {
-printf("%u, ", fib);
+printf("%f, ", fib);
 a = b;
 b = fib;
 fib = a + b;
