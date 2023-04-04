@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main - the entry point
+/**
+ * main - the entry point
  *         prints the sum of all multiples of 3 & 5 below 1024
  *
  * Return: ALways 0.
@@ -17,6 +18,6 @@ if (((i % 3) == 0) || ((i % 5) == 0))
 sum = sum + i;
 }
 }
-printf ("%d\n", sum);
+printf("%d\n", sum);
 return (0);
 }
