@@ -9,9 +9,9 @@
 int main(void)
 {
 int i;
-int fib;
-int a = 1;
-int b = 2;
+unsigned int fib;
+unsigned int a = 1;
+unsigned int b = 2;
 fib = a + b;
 printf("%d, %d, ", a, b);
 for (i = 3; i <= 50; i++)
