@@ -9,12 +9,11 @@
 int main(void)
 {
 int i;
-unsigned long int fib;
-unsigned long int a = 1;
-unsigned long int b = 2;
+unsigned long int fib = 1;
+unsigned long int a = 0;
+unsigned long int b = 1;
 unsigned long int sum = 0;
-fib = a + b;
-for (i = 3; i <= 50; i++)
+for (i = 1; i <= 50; i++)
 {
 while (fib < 4000000)
 {
