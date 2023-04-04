@@ -13,10 +13,10 @@ long double fib;
 long double a = 1;
 long double b = 2;
 fib = a + b;
-printf("%Lf, %Lf, ", a, b);
+printf("%0.Lf, %0.Lf, ", a, b);
 for (i = 3; i <= 98; i++)
 {
-printf("%Lf", fib);
+printf("%0.Lf", fib);
 if (i < 98)
 {
 printf(", ");
