@@ -9,14 +9,14 @@
 int main(void)
 {
 int i;
-double fib;
-double a = 1;
-double b = 2;
+long double fib;
+long double a = 1;
+long double b = 2;
 fib = a + b;
-printf("%0.f, %0.f, ", a, b);
+printf("%0.Lf, %0.Lf, ", a, b);
 for (i = 3; i <= 98; i++)
 {
-printf("%0.f", fib);
+printf("%0.Lf", fib);
 if (i < 98)
 {
 printf(", ");
