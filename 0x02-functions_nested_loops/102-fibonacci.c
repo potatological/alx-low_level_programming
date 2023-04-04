@@ -16,7 +16,11 @@ fib = a + b;
 printf("%lu, %lu, ", a, b);
 for (i = 3; i <= 50; i++)
 {
-printf("%lu, ", fib);
+printf("%lu", fib);
+if (i < 50)
+{
+printf(", ");
+}
 a = b;
 b = fib;
 fib = a + b;
