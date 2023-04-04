@@ -9,14 +9,14 @@
 int main(void)
 {
 int i;
-float fib;
-float a = 1;
-float b = 2;
+unsigned long int fib;
+unsigned long int a = 1;
+unsigned long int b = 2;
 fib = a + b;
-printf("%f, %f, ", a, b);
+printf("%lu, %lu, ", a, b);
 for (i = 3; i <= 50; i++)
 {
-printf("%f, ", fib);
+printf("%lu, ", fib);
 a = b;
 b = fib;
 fib = a + b;
