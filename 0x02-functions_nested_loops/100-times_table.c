@@ -2,28 +2,22 @@
 
 /**
  * print_times_table - prints the n times table, starting with 0
+ * @n: number of tables wanted
  * Return: No return (void)
  */
 
 void print_times_table(int n)
 {
-int i;
-int j;
-int a;
-
+  int i, j, a;
 for (i = 0; i <= n; i++)
 {
 for (j = 0; j <= n; j++)
 {
 a = (i * j);
 if (n > 15 || n < 0)
-{
 continue;
-}
 else if (j == 0)
-{
 _putchar('0');
-}
 else if (a <= 9)
 {
 _putchar(',');
