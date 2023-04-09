@@ -20,7 +20,7 @@ for (j = i - 1; j > 0; j--)
 {
 _putchar(32);
 }
-for (k = 0; k < size - j; k++)
+for (k = size - j; k > 0; k--)
 {
 _putchar(35);
 }
