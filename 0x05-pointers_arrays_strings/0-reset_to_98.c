@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*  reset_to_98 - takes the pointer and updates the value
-*  @n: int to check
-*  Owned By Bwave/Bright
-*  Return: 0 is success
+*  reset_to_98 - function that takes a pointer and updates the value it points to
+*  @n: int to be checked
+*  
+*  Return: no return value
 */
 
 void reset_to_98(int *n)
