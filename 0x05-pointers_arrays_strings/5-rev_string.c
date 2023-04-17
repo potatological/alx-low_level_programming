@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * rev_string - reverses a string
- * _putchar - print each character
+ * rev_string - function that reverses a string
  * @s: char to check
  *
- * Description: This will reverse a string
- * Return: 0 is success
+ * Return: no return value
  */
 void rev_string(char *s)
 {
